@@ -1,0 +1,55 @@
+.cS__card{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    background: transparent;
+    padding-bottom: 7rem;
+    margin-top: 5rem;
+}
+.cs__top img{
+    border-radius: 1rem;
+}
+.rate__container{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    background: var(--color-white);
+    z-index: 99;
+    width: 90%;
+    margin: -5rem auto 0;
+    border-radius: 1rem;
+    padding: 2rem 1rem;
+    position: relative;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+.rate__box{
+    display: grid;
+    place-items: center;
+    gap: 1rem;
+}
+.rate__container .heading{
+    font-size: 2rem;
+}
+.rate__container .card__title{
+    font-size: 1.5rem;
+    text-align: center;
+}
+.cs__bottom{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+
+
+
+
+
+/* ===========Media Queries (small device)============= */
+@media screen and (max-width: 700px) {
+    .rate__container{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: -10rem;
+    }
+  }

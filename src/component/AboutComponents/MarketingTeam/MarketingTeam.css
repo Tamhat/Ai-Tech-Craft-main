@@ -1,0 +1,38 @@
+.marketing__container{
+    display: grid;
+    grid-template-columns: 0.8fr 1fr;
+    gap: 5rem;
+    align-items: center;
+}
+.mTeam__left{
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+.mTeam__right > img{
+    max-height: 400px;
+    height: 100%;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+/* ===========Media Queries (mediam device)============= */
+@media screen and (max-width: 1024px) {
+    .marketing__container{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 5rem;
+        align-items: center;
+    }
+    .mTeam__right{
+        order: 1;
+    }
+    .mTeam__left{
+        order: 2;
+    }
+  }
+  

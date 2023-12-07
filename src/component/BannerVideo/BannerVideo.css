@@ -1,0 +1,9 @@
+.bVideoContainer{
+    width: 100%;
+    border:  2px solid var(--color-black-soft);
+    border-radius: 1rem;
+    overflow: hidden;
+}
+.bVideoContainer video{
+    width: 100%;
+}

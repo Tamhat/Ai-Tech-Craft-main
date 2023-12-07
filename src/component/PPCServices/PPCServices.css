@@ -1,0 +1,93 @@
+.pServices__container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 7rem;
+    align-items: center;
+}
+.pService__left{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+.pService__left .card__des{
+    line-height: 1.5;
+}
+.pService__right{
+    position: relative;
+    max-height: 600px;
+    height: 100%;
+}
+.pService__right .main{
+    border-radius: 1rem;
+}
+.pService__right .top{
+    position: absolute;
+    top: -2.5rem;
+    left: -3rem;
+    width: 200px;
+    height: 70px;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+.pService__right .right{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -4rem;
+    width: 170px;
+    height: 150px;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+.pService__right .left{
+    position: absolute;
+    bottom: -4rem;
+    right: -4rem;
+    width: 200px;
+    height: 120px;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+
+
+
+/* ===========Media Queries (mediam device)============= */
+@media screen and (max-width: 1024px) {
+    .pServices__container{
+        grid-template-columns: 1fr;
+        gap: 5rem;
+    }
+    .pService__right{
+        width: 80%;
+        margin: 5rem auto;
+    }
+  }
+  
+  
+  /* ===========Media Queries (small device)============= */
+  @media screen and (max-width: 700px) {
+    .pService__right .top{
+        top: -2rem;
+        left: -2.5rem;
+        width: 160px;
+        height: 50px;
+    }
+    .pService__right .right{
+        position: absolute;
+        left: -4rem;
+        width: 120px;
+        height: 80px;
+    }
+    .pService__right .left{
+        position: absolute;
+        bottom: -3rem;
+        right: -3rem;
+        width: 150px;
+        height: 100px;
+    }
+    
+  }

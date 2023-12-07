@@ -1,0 +1,69 @@
+/* .leadershipteam__container{
+    position: relative;
+} */
+.leadershipteam__container h1{
+    text-align: center;
+}
+.LST__button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3rem auto;
+    max-width: 400px;
+    width: 100%;
+    height: max-content;
+    padding: 0.6rem ;
+    background: var(--color-logo-Left);
+    border-radius: 5px;
+    gap: 1rem;
+}
+.LST__button .LST__btn{
+    padding: 1rem;
+    border-radius: 3px;
+    width: 100%;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: 500;
+    background: transparent;
+    color: var(--color-white);
+}
+.LST__button .LST__btn.active{
+    background: var(--color-white);
+    color: var(--color-primary);
+    font-weight: 600;
+}
+.tCard__data{
+    width: 75%;
+    margin: 5rem auto 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+
+
+
+
+
+/* ===========Media Queries (mediam device)============= */
+@media screen and (max-width: 1024px) {
+    .tCard__data{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    
+  }
+  
+  
+  /* ===========Media Queries (small device)============= */
+  @media screen and (max-width: 700px) {
+    .tCard__data{
+        width: 100%;
+        margin: 5rem auto 0;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    
+  }

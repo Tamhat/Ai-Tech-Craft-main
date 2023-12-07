@@ -1,0 +1,58 @@
+.joinTeam__bg{
+    background: var(--color-logo-Left);
+    padding: 12rem 0;
+}
+.joinTeam__container{
+    display: grid;
+    grid-template-columns: 0.7fr 1fr;
+    gap: 15rem;
+    align-items: center;
+}
+.joinTeam__left{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+.joinTeam__left > .heading,
+.joinTeam__left > .card__des{
+    color: var(--color-white);
+    line-height: 1.4;
+}
+.joinTeam__left > .btn{
+    background: var(--color-white);
+    color: var(--color-primary);
+}
+.joinTeam__right{
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1024px) {
+    .joinTeam__container{
+        grid-template-columns: 1fr;
+        gap: 10rem;
+    }
+    
+  }
+  
+  /* ===========Media Queries (small device)============= */
+@media screen and (max-width: 700px) {
+    .joinTeam__container{
+        grid-template-columns: 1fr;
+        gap: 5rem;
+    }
+    .joinTeam__right{
+        width: 100%;
+    }
+    
+    
+  }

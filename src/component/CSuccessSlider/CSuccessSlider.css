@@ -1,0 +1,14 @@
+.cS__container .swiper-pagination-bullet{
+    width: 40px;
+    height: 5px;
+    border-radius: 5px;
+}
+
+
+
+/* ===========Media Queries (small device)============= */
+@media screen and (max-width: 700px) {
+    .cS__container .swiper-pagination-bullet{
+        width: 20px;
+    }
+  }

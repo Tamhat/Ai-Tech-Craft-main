@@ -1,0 +1,50 @@
+
+.liveRules__container .heading{
+    text-align: center;
+}
+.liveRules__card{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5rem;
+    margin-top: 10rem;
+}
+.live__card{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    cursor: grab;
+}
+.live__card .card__top{
+    display: grid;
+    grid-template-columns: 0.2fr 1fr;
+    gap: 1.5rem;
+    align-items: center;
+}
+.live__card .card__top img{
+    width: 70px;
+}
+.live__card .card__top .heading{
+    font-size: 2rem;
+    color: var(--color-primary);
+    text-align: left;
+}
+
+
+
+
+/* ===========Media Queries (mediam device)============= */
+@media screen and (max-width: 1024px) {
+    .liveRules__card{
+        grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  
+  /* ===========Media Queries (small device)============= */
+  @media screen and (max-width: 700px) {
+    .liveRules__card{
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+    
+  }

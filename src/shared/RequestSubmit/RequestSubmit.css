@@ -1,0 +1,108 @@
+/* .requestSubmit__bg{
+    background: var(--color-logo-Left);
+    padding: 10rem 0;
+} */
+.rSubmit__container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 7rem;
+    align-items: center;
+}
+.rSubmit__left{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.rSubmit__left .quote ul{
+    margin: 2rem 0 2rem 3rem;
+
+}
+.rSubmit__left .quote ul li{
+    margin: 1rem;
+    font-size: 1.6rem;
+    font-weight: 500;
+    color:  var(--color-primary);
+    position: relative;
+}
+.rSubmit__left .quote ul li::after{
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: var(--color-logo-Left);
+    left: -2rem;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.rSubmit__right form{
+    border: 1px solid var(--color-light);
+    border-radius: 1rem;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.rSubmit__right form input::placeholder{
+    color: var(--color-most-soft);
+}
+.rSubmit__right form input,
+.rSubmit__right form textarea,
+.rSubmit__right form select{
+    border: 1px solid var(--color-light);
+    padding: 1.3rem 2rem;
+    border-radius: 3px;
+    width: 100%;
+    resize: none;
+    color: var(--color-gray);
+}
+.rSubmit__right form .name{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.rSubmit__right form .name input{
+    width: 100%;
+    
+}
+.call{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    font-size: 1.6rem;
+}
+.call svg{
+    color: var(--color-logo-Left);
+    font-size: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+/* ===========Media Queries (mediam device)============= */
+@media screen and (max-width: 1024px) {
+    .rSubmit__container{
+        grid-template-columns: 1fr;
+        gap: 5rem;
+    }
+    
+  }
+  
+  
+  /* ===========Media Queries (small device)============= */
+  @media screen and (max-width: 700px) {
+    .rSubmit__container{
+        gap: 3rem;
+    }
+    .rSubmit__right form .name{
+        flex-direction: column;
+    }
+    
+  }

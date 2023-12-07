@@ -1,0 +1,27 @@
+.ourmission__container{
+    display: grid;
+    grid-template-columns: 0.7fr 1fr;
+    gap: 5rem;
+}
+.mission__right{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.mission__des{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+
+
+/* ===========Media Queries (mediam device)============= */
+@media screen and (max-width: 1024px) {
+    .ourmission__container{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 5rem;
+    }
+  }
+  

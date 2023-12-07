@@ -1,0 +1,153 @@
+/* --------google fonts-------- */
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+
+  --color-primary: #231f20;
+  --color-primary-soft: #413a3c;
+  --color-most-soft: #575555;
+
+
+  --bg-primary: #edf6ff;
+
+
+  --color-secondary: #73cce8;
+  --color-ternary: #fc775a;
+
+
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-light: #d6d6d6;
+  --color-gray: rgba(69, 69, 69, 0.953);
+
+  
+  --color-logo-Left: #6b07df;
+  --color-logo-Right: #e52cd0;
+
+  --color-black-soft: rgba(0, 0, 0, 0.1);
+  --color-white-soft: rgba(255, 255, 255, 0.1);
+
+
+
+  --width-lg-screen: 87%;
+  --width-md-screen: 90%;
+  --width-sm-screen: 92%;
+  --transition: all 0.6s ease;
+}
+
+
+
+*,*::before,*::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  list-style: none;
+}
+
+html{
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+html,
+body{
+  overflow-x: hidden;
+}
+img{
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.container{
+  max-width: 1500px;
+  width: var(--width-lg-screen);
+  margin: 0 auto;
+}
+
+section{
+  margin-top: 10rem;
+}
+.btn{
+  width: max-content;
+  padding: 1.2rem 3rem;
+  background: linear-gradient(to right, var(--color-logo-Left), var(--color-logo-Right));
+  font-size: 1.6rem;
+  color: white;
+  font-weight: 600;
+  border-radius: 5px;
+  display: block;
+}
+
+
+.heading{
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: var(--color-primary);
+}
+
+
+/* ===========card title========== */
+.card__title{
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: var(--color-primary);
+}
+.card__des{
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: var(--color-gray);
+  line-height: 1.2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ===========Media Queries (mediam device)============= */
+@media screen and (max-width: 1024px) {
+  html{
+    font-size: 58.5%;
+  }
+  .container{
+    width: var(--width-md-screen);
+  }
+  section{
+    margin-top: 8rem;
+  }
+  
+}
+
+
+/* ===========Media Queries (small device)============= */
+@media screen and (max-width: 700px) {
+  html{
+    font-size: 55.5%;
+  }
+  .container{
+    width: var(--width-sm-screen);
+  }
+  section{
+    margin-top: 6rem;
+  }
+  .heading{
+    font-size: 2.5rem;
+  }
+  
+}

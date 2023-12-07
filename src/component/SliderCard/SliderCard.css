@@ -1,0 +1,10 @@
+.sliderCard{
+    display: grid;
+    grid-template-columns: 1.5fr 2fr;
+    gap: 5rem;
+    position: relative;
+}
+.sCard__left{
+    border-radius: 1rem;
+    overflow: hidden;
+}

@@ -1,0 +1,108 @@
+.dMarketing__container{
+    padding-top: 5rem;
+}
+.dM__box__top{
+    max-width: 570px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+.dMarketing__container .card__des{
+    line-height: 1.5;
+}
+.dM__box{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10rem;
+    align-items: flex-start;
+}
+.dMarketing__left{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+.dMarketing__right{
+    margin-top: -3rem;
+    position: relative;
+}
+.dMarketing__right img{
+    border-radius: 1rem;
+    max-height: 600px;
+    height: 100%;
+}
+.mD__top{
+    position: absolute;
+    top: -5rem;
+    right: -3rem;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 1rem;
+    overflow: hidden;
+}
+.mD__top img{
+    width: 200px;
+}
+.dM__right{
+    position: absolute;
+    top: 60%;
+    right: -3rem;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 1rem;
+    overflow: hidden;
+    transform: translateY(-50%);
+}
+.dM__right img{
+    width: 100px;
+}
+
+.dM__left{
+    position: absolute;
+    bottom: -5rem;
+    left: -3rem;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.dM__left img{
+    width: 180px;
+}
+
+
+
+
+
+/* ===========Media Queries (mediam device)============= */
+@media screen and (max-width: 1024px) {
+    .dM__box{
+        grid-template-columns:  1fr;
+        gap: 5rem;
+    }
+    .dMarketing__right{
+        width: 80%;
+        margin: 5rem auto;
+    }
+  }
+  
+  
+  /* ===========Media Queries (small device)============= */
+  @media screen and (max-width: 700px) {
+    .mD__top img{
+        width: 150px;
+    }
+    .dM__right{
+        right: -2rem;
+    }
+    .dM__right img{
+        width: 50px;
+    }
+
+    .dM__left{
+        bottom: -3rem;
+    }
+    
+    .dM__left img{
+        width: 100px;
+    }    
+  }
