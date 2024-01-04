@@ -8,6 +8,7 @@ import About from "./pages/About/About";
 import Products from "./pages/Products/Products";
 import Services from "./pages/Services/Services";
 import Contact from "./pages/Contact/Contact";
+import Portfolio from "./pages/Portfolio/Portfolio";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route exact path="/" element={<Home />} />
+          <Route exact path="/portfolio" element={<Portfolio />} />
           <Route exact path="/about" element={<About />} />
           <Route exact path="/products" element={<Products />} />
           <Route exact path="/services" element={<Services />} />

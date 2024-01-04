@@ -19,16 +19,21 @@ export const navLinks = [
     },
     {
         id: 3,
+        title: "portfolio",
+        path: "/portfolio"
+    },
+    {
+        id: 4,
         title: "services",
         path: "/services"
     },
     {
-        id: 4,
+        id: 5,
         title: "products",
         path: "/products"
     },
     {
-        id: 5,
+        id: 6,
         title: "contact",
         path: "/contact"
     },
@@ -91,6 +96,91 @@ export const servicesData = [
 ];
 
 
+// ==========portfolioData b  ===========
+export const portfolioData = [
+  {
+    id: 1,
+    name: "Phorst App",
+    profile: "https://phorst-app.vercel.app/logo.svg",
+    title: "A Full Stack Social Media Application. Threads clone",
+    // description: "Oleg is the CEO and Founder of People.ai. Prior to People.ai Oleg helped start and scale three big data companies, two of which, including Oleg’s own Semantria, were subsequently acquired. He has a passion for data science, machine learning, and text analytics. At People.ai Oleg is leveraging these technologies to solve the age-old problem of measuring and optimizing human productivity through sales automation tools.",
+    link: "https://phorst-app.vercel.app/",
+    twitter: "https://twitter.com/"
+  },
+  {
+    id: 2,
+    name: "Travel Coin",
+    profile: "https://virtual-travel.netlify.app/ZImages/logo-light.png",
+    title: "A Full Stack Crypto Web Application",
+    // description: "Thomas leads product and corporate development at People.ai with responsibility for strategy, product management, design and business development. Previously, he was the Chief Marketing & Strategy Officer of AppDynamics leading the marketing, technology strategy, and corporate development teams through the company’s hyper-growth stage to become the market leader. Prior to that Thomas was the Vice President and General Manager of Cisco’s Cloud Analytics business unit, leading the company’s expansion into application intelligence and sponsoring its $3.7B acquisition of AppDynamics. During his career at Cisco, Thomas has been a business and product leader taking internal start-ups from concept to #1 market share, scaling high growth ventures to $1B+ in revenue, and leading a cloud transformation for a multi-billion dollar business. Thomas was the VP/GM for a range of businesses spanning analytics, cloud infrastructure, collaboration, and video.",
+    link: "https://virtual-travel.netlify.app/",
+    twitter: "https://twitter.com/"
+  },
+  {
+    id: 4,
+    name: "Jexi Exchange",
+    profile: "https://jexiexchange.com/static/media/logo.49a5d7ab.png",
+    title: "A Full Stack Crypto Web Application",
+    // description: "Emily is the Chief Financial Officer (CFO) at People.ai, where she oversees all finance, HR, and legal operations for the company. As the first CFO for People.ai, Emily will leverage her extensive industry knowledge and expertise to lead People.ai’s internal and external financial strategy through the company’s next growth phase. Prior to joining the company, Emily was a previous customer, where People.ai’s approach to accelerating growth, revenue, and innovation left a lasting impression. In all, she brings more than two decades of experience to the table, holding a variety of leadership roles across finance and operations at notable companies including Palo Alto Networks, Qualys, TiVo, and Anaplan",
+    link: "https://jexiexchange.com/",
+    twitter: "https://twitter.com/"
+  },
+  {
+    id: 3,
+    name: "Ai Audits",
+    profile: "https://img001.prntscr.com/file/img001/zPRMUU9jShWGSD6aoFZF7Q.png",
+    title: "A Full Stack Web App for Ai Content Detection",
+    // description: "Sarah leads the Marketing team, focusing on brand & awareness, content, growth & product marketing, as well supporting the go to market efforts. Prior to joining People.ai, Sarah was the SVP of Marketing at Unqork, a leader in codeless application development built for the enterprise. Previously, she spent 12 years at Salesforce, where she gained deep sales tech domain knowledge. Over her time at Salesforce she worked on both Sales and Marketing Cloud, as well as various acquisitions including Quip",
+    link: "https://ai-audits-main.vercel.app/",
+    twitter: "https://twitter.com/"
+  },
+  {
+    id: 5,
+    name: "Ai Spotlight",
+    profile: "https://img001.prntscr.com/file/img001/shDSB91SSzaVCMgj-quviA.png",
+    title: "A Full Stack Web App for Ai Directory",
+    // description: "Oleg is the CEO and Founder of People.ai. Prior to People.ai Oleg helped start and scale three big data companies, two of which, including Oleg’s own Semantria, were subsequently acquired. He has a passion for data science, machine learning, and text analytics. At People.ai Oleg is leveraging these technologies to solve the age-old problem of measuring and optimizing human productivity through sales automation tools.",
+    linkedIn: "https://ai-spotlight-main.vercel.app/",
+    twitter: "https://twitter.com/"
+  },
+  {
+    id: 6,
+    name: "Video Conferencing Application",
+    profile: "https://video-app-rahmat.vercel.app/static/media/video-logo.636647face73af83b35c.jfif",
+    title: "Full Stack Video Conference App",
+    // description: "Oleg is the CEO and Founder of People.ai. Prior to People.ai Oleg helped start and scale three big data companies, two of which, including Oleg’s own Semantria, were subsequently acquired. He has a passion for data science, machine learning, and text analytics. At People.ai Oleg is leveraging these technologies to solve the age-old problem of measuring and optimizing human productivity through sales automation tools.",
+    linkedIn: "https://video-app-rahmat.vercel.app/room/asdnasd",
+    twitter: "https://twitter.com/"
+  },
+  {
+    id: 7,
+    name: "Chat Application",
+    profile: "https://img001.prntscr.com/file/img001/spZgyiqgTz-bI7YHwHiVgw.png",
+    title: "Full Stack Chat App",
+    // description: "Oleg is the CEO and Founder of People.ai. Prior to People.ai Oleg helped start and scale three big data companies, two of which, including Oleg’s own Semantria, were subsequently acquired. He has a passion for data science, machine learning, and text analytics. At People.ai Oleg is leveraging these technologies to solve the age-old problem of measuring and optimizing human productivity through sales automation tools.",
+    linkedIn: "https://rahmat-chat-app.vercel.app/",
+    twitter: "https://twitter.com/"
+  },
+  {
+    id: 8,
+    name: "Romax Dev",
+    profile: "https://romax-dev.vercel.app/img/logo.png",
+    title: "UI Design",
+    // description: "Oleg is the CEO and Founder of People.ai. Prior to People.ai Oleg helped start and scale three big data companies, two of which, including Oleg’s own Semantria, were subsequently acquired. He has a passion for data science, machine learning, and text analytics. At People.ai Oleg is leveraging these technologies to solve the age-old problem of measuring and optimizing human productivity through sales automation tools.",
+    linkedIn: "https://romax-dev.vercel.app/",
+    twitter: "https://twitter.com/"
+  },
+  {
+    id: 8,
+    name: "Go Green Booty",
+    profile: "https://www.gogreenbooty.com/gogreenbooty.svg",
+    title: "Go Green Booty Admin Panel ",
+    // description: "Oleg is the CEO and Founder of People.ai. Prior to People.ai Oleg helped start and scale three big data companies, two of which, including Oleg’s own Semantria, were subsequently acquired. He has a passion for data science, machine learning, and text analytics. At People.ai Oleg is leveraging these technologies to solve the age-old problem of measuring and optimizing human productivity through sales automation tools.",
+    linkedIn: "https://www.gogreenbooty.com/",
+    twitter: "https://twitter.com/"
+  },
+  
+]
 // ==========leadership===========
 export const leaderShipData = [
   {
