@@ -54,9 +54,9 @@ const Home = () => {
 export default Home;
 
 // ----------seo services===========
-const title = "SEO Services That Put You on Top";
+const title = "Ai SEO Services That Put You on Top";
 const des =
-  "Approximately 94% of all organic search traffic is handled by Google, and 80% of online users use search engines to locate products, services, and information. Therefore, the success of online businesses depends heavily on an effective SEO strategy. In the last 12 years, our SEO agency has generated more than $50M in revenue for our clients through different search engine optimization services. Not to mention, we are the first digital marketing company to offer a guarantee on our work. Get in touch with us today to learn more.";
+  "Dominate search results with our AI SEO services, blending advanced technology and strategic optimization. Stay ahead of the competition with cutting-edge algorithms and machine learning for lasting success. Seamlessly integrate into the digital landscape, engaging your audience effortlessly. Welcome to a new era of digital prominence, where our AI SEO propels your brand to the top.";
 
 const main =
   "https://comradeweb.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2022/03/shutterstock_1520228513-1.jpg.webp";
@@ -69,7 +69,7 @@ const bottom =
 const webTitle =
   "Empower your business with result-oriented Web Design Services";
 const webDescription =
-  "Your online presence is defined by your website. It introduces your brand to the world, exhibits your unique benefits, and inspires visitors to take action. That’s where Comrade comes in. We began as a small website design company and over the last decade, have grown to offer a full range of marketing services, all designed to attract traffic and convert leads into paying customers.";
+  "Crafting Your Digital Identity: Ai Tech Craft Shapes Your Online Presence, from Web Design to Result-Driven Marketing Solutions. Born as a web design pioneer, we've evolved into a comprehensive marketing partner, dedicated to attracting traffic and transforming leads into valued customers over the last decade.";
 
 const webMainImage =
   "https://comradeweb.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2022/03/Mask-group-1.jpg.webp";

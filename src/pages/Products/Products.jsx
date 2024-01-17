@@ -1,8 +1,12 @@
-import React from 'react'
+import OurProducts from "../../component/OurProducts/OurProducts";
+import RequestSubmit from "../../shared/RequestSubmit/RequestSubmit";
 
 const Products = () => {
   return (
-    <div>Products</div>
+    <div>
+      <OurProducts />
+      <RequestSubmit />
+    </div>
   )
 }
 

@@ -6,10 +6,10 @@ const MarketingAudit = () => {
     <section className='mAudit__bg'>
         <div className="container mAudit__container">
             <div className="mAudit__left">
-                <h1 className="heading">Get a complimentary Marketing Audit</h1>
+                <h1 className="heading">Free AI Marketing Audit from Ai Tech Craft.</h1>
 
                 <div>
-                    <p className="card__des">The experts at our Digital Marketing Agency have managed thousands of successful marketing campaigns, resulting in increases in qualified leads, phone calls, traffic, and most importantly— revenue.</p>
+                    <p className="card__des">The experts at our Ai Tech Craft have managed thousands of successful marketing campaigns, resulting in increases in qualified leads, phone calls, traffic, and most importantly— revenue.</p>
 
                     <p className="card__des">Start by requesting an initial digital strategy proposal for free and receive:</p>
 

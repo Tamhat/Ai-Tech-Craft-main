@@ -6,15 +6,16 @@ const DigitalMarketing = () => {
    <section>
     <div className="container dMarketing__container">
         <div className="dM__box__top">
-        <h1 className="heading">A single digital marketing agency for all of your needs</h1>
+        <h1 className="heading">A single Business solution provider using AI for all of your needs</h1>
 
-<p className="card__des">For over a decade, we've helped hundreds of businesses nationwide succeed using our expertise in digital marketing solutions that help grow your revenue.</p>
+<p className="card__des">Ai Tech Craft: Your ultimate business solution provider, harnessing the power of AI for all your needs. Streamline operations, elevate performance, and achieve unparalleled efficiency with our cutting-edge services.</p>
         </div>
 
         <div className="dM__box">
         <div className="dMarketing__left">
-            <h1 className="heading">Attract customers with Comrade's digital marketing services</h1>
-            <p className="card__des">At Comrade Digital Marketing Agency, we are passionate about growing companies across virtually every sector. Our full-service marketing agency leverages every tool available to reach out to your ideal clients and generate more qualified leads. The result? A tangible increase in sales and revenue for your business.</p>
+            <h1 className="heading">Attract customers with Ai Tech Craft's digital Ai services</h1>
+            <p className="card__des">
+Capture customer attention with Ai Tech Craft's innovative AI-driven digital services. Our cutting-edge technology ensures a seamless and engaging experience for your audience. Elevate your brand with AI-powered solutions that go beyond expectations. Welcome to a new era of customer attraction, where our digital AI services redefine excellence.</p>
         </div>
         <div className="dMarketing__right">
             <div className="dM__main">

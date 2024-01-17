@@ -18,7 +18,7 @@ const Faq = ({data}) => {
   return (
     <section>
       <div className="container faq__container">
-      <h1 className="heading">Frequently asked questions</h1>
+      <h1 className="heading"></h1>
 
         <div className="faq__content">
         {data &&

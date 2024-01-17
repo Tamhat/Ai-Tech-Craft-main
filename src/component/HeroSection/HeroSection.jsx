@@ -11,15 +11,14 @@ const HeroSection = () => {
         {/* =======hero left section========== */}
         <div className="hero__left">
           <h1 className="hero__heading">
-            Lorem ipsum dolor sit amet <br /> consectetur adipisicing elit!
-          </h1>
+            <h1>AI Solutions  for <br/> the Future</h1>
+            </h1>
           <p className="hero__text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
-            nesciunt expedita, animi fugiat esse, quasi ipsa odio assumenda,
-            dignissimos libero corrupti reiciendis ex quibusdam eligendi
-            doloribus eius suscipit quis! Optio.
-          </p>
-
+            AI Tech Craft is a leading provider of AI solutions for the future. 
+            We are a team of highly skilled and experienced professionals who 
+            have been working in the field of artificial intelligence for over
+            10 years. Our goal is to help businesses leverage the power of AI
+            </p>
           <div className="hero__btn">
             <button className="btn">Get Started</button>
             <button>Learn More</button>

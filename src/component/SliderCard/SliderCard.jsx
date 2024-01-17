@@ -10,7 +10,7 @@ const SliderCard = (props) => {
       <div className="sCard__right">
         <h1 className="heading">{title}</h1>
         <p className="card__des">{description}</p>
-      </div>
+      </div>  
     </div>
   );
 };

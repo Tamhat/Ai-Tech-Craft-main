@@ -90,7 +90,7 @@ export const servicesData = [
   {
     id: 4,
     icon: <FaBullhorn />,
-    title: "Digital Marketing",
+    title: "Ai Model",
     des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint asperiores exercitationem deleniti cupiditate et repellendus? Culpa, ea laboriosam laudantium ut rerum fugit unde dolores, ratione iusto id dolorem deserunt ipsa?",
   },
 ];
@@ -314,7 +314,7 @@ export const liveRulesData = [
     id: 4,
     icon: "https://comradeweb.com/wp-content/uploads/2022/06/Frame-1394.svg",
     title: "Always Innovate",
-    description: "Digital marketing is one of the most dynamic and fast-paced industries in human history. It’s not simply enough to understand how the game is played, but be prepared for how its constantly changing. Without innovation you cannot compete in today’s market. Out team invests ample time in learning and growing with this ever-changing landscape."
+    description: "Ai Model is one of the most dynamic and fast-paced industries in human history. It’s not simply enough to understand how the game is played, but be prepared for how its constantly changing. Without innovation you cannot compete in today’s market. Out team invests ample time in learning and growing with this ever-changing landscape."
   },
   {
     id: 5,
@@ -453,8 +453,8 @@ export const marketingAgencyData = [
 export const faqData = [
   {
     id: 1,
-    question: "How does your Digital Marketing Process work?",
-    answer: " Research. Strategy. Action. Tracking Growth. To develop a successful website and digital marketing campaign, we follow these steps. To create business growth plans that will prove successful in our client's current competitive industry landscape, our Chicago, IL digital agency identifies and research their pain points. The next step is to develop marketing strategies to overcome any potential obstacles along the way to meeting our clients' revenue targets. The third step is to implement the strategy as quickly, strategically, and efficiently as possible among all possible marketing channels. Lastly, our we must be accountable for our performance based on the established KPIs and adjust the plan accordingly."
+    question: "How does your Ai Model Process work?",
+    answer: " Research. Strategy. Action. Tracking Growth. To develop a successful website and Ai Model campaign, we follow these steps. To create business growth plans that will prove successful in our client's current competitive industry landscape, our Chicago, IL digital agency identifies and research their pain points. The next step is to develop marketing strategies to overcome any potential obstacles along the way to meeting our clients' revenue targets. The third step is to implement the strategy as quickly, strategically, and efficiently as possible among all possible marketing channels. Lastly, our we must be accountable for our performance based on the established KPIs and adjust the plan accordingly."
   },
   {
     id: 2,
@@ -464,21 +464,21 @@ export const faqData = [
   {
     id: 3,
     question: "What industries do you specialize in?",
-    answer: "As a full-service digital marketing agency, we serve clients in a wide range of industries. Our services extend beyond B2B and B2C eCommerce to manufacturers, medical providers, real estate agents, senior living facilities, local businesses, legal professionals, and a wide variety of other businesses. Our goals, however, are always the same— to deliver real, tangible results. That’s why we never take on a project or client in an industry unless we can prove to them how we will succeed. "
+    answer: "As a full-service Ai Model agency, we serve clients in a wide range of industries. Our services extend beyond B2B and B2C eCommerce to manufacturers, medical providers, real estate agents, senior living facilities, local businesses, legal professionals, and a wide variety of other businesses. Our goals, however, are always the same— to deliver real, tangible results. That’s why we never take on a project or client in an industry unless we can prove to them how we will succeed. "
   },
   {
     id: 4,
     question: "How much do your services cost?",
-    answer: "It is important to consider many factors when planning a marketing campaign, as every business is unique. Do you prefer to grow your business gradually but steadily or aggressively? Do you plan to include many complicated features on the website, or will it be mostly for the purpose of providing information? Each of these factors affects your overall costs. In general, high-performance websites cost between $10,000 and $40,000. Your current website's quality and performance will determine the price of digital marketing solutions. Depending on the client, the monthly cost can range from $2,500 to over $10,000. Our marketing budget averages $4,000 per month. "
+    answer: "It is important to consider many factors when planning a marketing campaign, as every business is unique. Do you prefer to grow your business gradually but steadily or aggressively? Do you plan to include many complicated features on the website, or will it be mostly for the purpose of providing information? Each of these factors affects your overall costs. In general, high-performance websites cost between $10,000 and $40,000. Your current website's quality and performance will determine the price of Ai Model solutions. Depending on the client, the monthly cost can range from $2,500 to over $10,000. Our marketing budget averages $4,000 per month. "
   },
   {
     id: 5,
-    question: "Do you offer a Guarantee for your Digital Marketing Services?",
-    answer: "One of the most important decisions you'll make is choosing the right web development and marketing agency. You should consider hiring an advertising agency that works within your guidelines, is transparent, and stands behind its work. This is what makes us different. We are one of the select few digital marketing agencies that guarantee quality work. As a result, we stand behind the work our team accomplishes, ensuring that clients will see results. After two consecutive months of providing our guaranteed package, we move to the full rate we had negotiated once we achieve our goals. Contact us to find out if you qualify. "
+    question: "Do you offer a Guarantee for your Ai Model Services?",
+    answer: "One of the most important decisions you'll make is choosing the right web development and marketing agency. You should consider hiring an advertising agency that works within your guidelines, is transparent, and stands behind its work. This is what makes us different. We are one of the select few Ai Model agencies that guarantee quality work. As a result, we stand behind the work our team accomplishes, ensuring that clients will see results. After two consecutive months of providing our guaranteed package, we move to the full rate we had negotiated once we achieve our goals. Contact us to find out if you qualify. "
   },
   {
     id: 6,
     question: "How long will it take to start seeing improvements in sales?",
-    answer: "A web design and development project typically yields results within a short period. However, some elements of your digital marketing strategy will take time to yield results. Within 90 days of starting an SEO campaign, we typically see tangible results, accompanied by a steady rise in sales. However, you can begin seeing results from PPC campaigns within a month. It is critical to remember that each of your marketing tactics has a place in your overall strategy, so don't overlook SEO or content because of their longer ramp-up time. Our team will gladly explain the reasons behind this to you during your consultation. "
+    answer: "A web design and development project typically yields results within a short period. However, some elements of your Ai Model strategy will take time to yield results. Within 90 days of starting an SEO campaign, we typically see tangible results, accompanied by a steady rise in sales. However, you can begin seeing results from PPC campaigns within a month. It is critical to remember that each of your marketing tactics has a place in your overall strategy, so don't overlook SEO or content because of their longer ramp-up time. Our team will gladly explain the reasons behind this to you during your consultation. "
   },
 ]

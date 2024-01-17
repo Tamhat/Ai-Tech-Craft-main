@@ -8,14 +8,14 @@ const OurPromise = () => {
         <div className="container oPromise__container">
             <div className="oPromise__left">
                 <h3 className="card__title">OUR PROMISE</h3>
-                <h1 className="heading">Powering businesses and eCommerce stores since 2008</h1>
+                <h1 className="heading">Powering businesses and clients needs since 2008</h1>
             </div>
 
             <div className="oPromise__right">
                     <div className="oPromise__card-top">
                         <Card className="oPromise__single-card">
                             <h1 className="heading">2.5x</h1>
-                            <h3 className="card__title">INCREASE IN SEO TRAFFIC</h3>
+                            <h3 className="card__title">Growth in Branding</h3>
                         </Card>
 
                         <Card className="oPromise__single-card">

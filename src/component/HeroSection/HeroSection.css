@@ -19,6 +19,7 @@
 }
 .hero__left .hero__heading{
     font-size: 4rem;
+    text-align: left!important;
 }
 .hero__left > p{
     max-width: 450px;

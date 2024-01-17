@@ -15,11 +15,11 @@ const MarketingAgency = () => {
       <div className="container mAgency__container">
         <div className="mAgency__left">
           <h1 className="heading">
-            Why Comrade Is the Right Marketing Agency for You
+            Why Ai Tech Craft Is the Right choice for You
           </h1>
           <div className="plan">
             <p className="card__des">
-              Comrade is one of the best digital marketing agencies nationwide,
+            Ai Tech Craft is one of the best business growth solution provider using AI on nationwide,
               that also offers service to businesses nationwide. To guarantee
               your success we follow a few simple rules:
             </p>
@@ -30,15 +30,15 @@ const MarketingAgency = () => {
                 deliver results.
               </li>
               <li className="card__des">
-                Our team analyzes our clients’ data and determines precisely how
+                Our Ai Models analyzes our clients’ data and determines precisely how
                 our services will help them grow.
               </li>
               <li className="card__des">
-                Unlike other digital marketing agencies, we guarantee the
+                Unlike other Ai Models, we guarantee the
                 results of our work.
               </li>
               <li className="card__des">
-                Our team of digital marketing experts is your partner for
+                Our team of Ai Models experts is your partner for
                 long-term success, delivering an inbound strategy that delivers
                 on your business goals.
               </li>
